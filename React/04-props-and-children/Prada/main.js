@@ -1,13 +1,27 @@
 function Registor(){
-    
+
+    return(
+        <div className="registor">
+            <div>
+                
+            </div>
+            <p>{'SHOP THE SALE COLLECTION'}</p>
+            <div>
+                <p>{"Sign in / Registor"}</p>
+            </div>
+        </div>
+    )
 }
 
 function App(){
 
 
-    return(){
-
-    }
+    return(
+        <>
+            <Registor/>
+        
+        </>
+    )
 }
 
 
@@ -16,4 +30,4 @@ function App(){
 //ReactDOM
 const domroot = document.getElementById('root')
 const root = ReactDOM.createRoot(domroot)
-root.render(<App/>              )
+root.render(<App/>)
