@@ -3,8 +3,107 @@
     margin: 0;
     box-sizing: border-box;
 }
+body{
+    background-color: #E5E5E5;
+    display: flex;
+    justify-content: center;
+}
+.main-body{
+    max-width: 1200px;
+    /* border: solid; */
+}
 .registor{
     display: flex;
-    justify-content:space-between;
-    
+    justify-content: flex-end;
+    background-color:  #C4C4C4;
+    height: 30px;
+    align-items: center;
+    gap: 380px;
+}
+.header{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+nav{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    /* border: solid; */
+}
+.sexywomen{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+.sexywomen :first-child{
+    width: 100%;
+}
+.summer{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+.summer-box{
+    border: 1px solid;
+    height: 40px;
+    width: 170px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: x-small;
+}
+.newArrivals{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+.card{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.fall-collection{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+}
+.fall-collection-left{
+    display: flex;
+    align-items:end;
+    /* border: solid; */
+}
+.fall-shop{
+    border: 1px solid;
+    width: 80%;
+    height: 40px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.swimming{
+    margin-top: 50px;
+    position: relative;
+}
+.swimming-h2{
+    position: absolute;
+    right: 30px;
+    bottom: 150px;
+    color: white;
+}
+.swimming-div{
+    position: absolute;
+    right: 9px;
+    bottom: 80px;
+    background-color: white;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
