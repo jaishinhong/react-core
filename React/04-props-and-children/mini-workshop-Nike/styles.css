@@ -1,0 +1,38 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%; // root 16px * 0.625 == 10px
+}
+
+body {
+    font-size: 2rem;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    /* border: solid; */
+    height: 700px;
+    align-items: center;
+}
+
+.card{
+    /* border: 1px solid; */
+    width: 320px;
+}
+
+.card-img{
+    width: 100%
+}
+
+.card-price{
+    margin-top: 10px;
+}
+.card-des, .card-color{
+    color: grey;
+}

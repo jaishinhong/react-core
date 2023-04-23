@@ -1,0 +1,28 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    padding: 4.8rem;
+}
+
+.card{
+    font-size: 2rem;
+    background-color: white;
+    padding: 4rem 3rem;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.card_link{
+    color:blue;
+    cursor: pointer; 
+}
+

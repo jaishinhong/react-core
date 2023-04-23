@@ -1,0 +1,62 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+    font-size: 20px;
+}
+body{
+    font-family: 'Urbanist', sans-serif;
+}
+.main{
+    display: flex;
+    height: 100vh;
+}
+.main_left{
+    background-color: wheat;
+    flex: 1;
+}
+.main_left_img{
+    height: 100%;
+    width: 100%;
+}
+.main_right{ 
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+h1{
+    color: #29005F;
+    font-size: 35px;
+}
+p{
+    font-size: 18px;
+}
+.main_right_box{  
+    /* border: solid; */
+    width: 370px;
+    height: 370px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.main_right_box_submit{
+    display: flex;
+    gap: 5px;
+}
+.input{
+    flex: 1;
+    height: 40px;
+    border-radius: 5px;
+}
+.button{
+    background-color: #29005F;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 1px;
+    flex: 1;
+    font-size: 15px;
+    
+}
